@@ -1,6 +1,7 @@
 
 <html>
 <body>
+<center>
 
 <canvas id="canvas" width="400" height="400"
 style="background-color:olivedrab;">
@@ -87,6 +88,6 @@ function drawHand(ctx, pos, length, width) {
     ctx.rotate(-pos);
 }
 </script>
-
+</center>
 </body>
 </html>
