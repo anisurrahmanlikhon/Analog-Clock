@@ -3,7 +3,7 @@
 <body>
 
 <canvas id="canvas" width="400" height="400"
-style="background-color:pink;">
+style="background-color:olivedrab;">
 </canvas>
 
 <script>
@@ -27,15 +27,15 @@ function drawFace(ctx, radius) {
   ctx.fillStyle = 'white';
   ctx.fill();
   grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
-  grad.addColorStop(0, '#DAA520');
+  grad.addColorStop(0, '#20B2AA');
   grad.addColorStop(0.5, 'white');
-  grad.addColorStop(1, '#DAA520');
+  grad.addColorStop(1, '#20B2AA');
   ctx.strokeStyle = grad;
   ctx.lineWidth = radius*0.1;
   ctx.stroke();
   ctx.beginPath();
   ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
-  ctx.fillStyle = '#DAA520';
+  ctx.fillStyle = '#20B2AA';
   ctx.fill();
 }
 
