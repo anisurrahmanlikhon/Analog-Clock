@@ -3,7 +3,7 @@
 <body>
 <center>
 
-<canvas id="canvas" width="100%" height="100%"
+<canvas id="canvas" width="300%" height="300%"
 style="background-color:olivedrab;">
 </canvas>
 
